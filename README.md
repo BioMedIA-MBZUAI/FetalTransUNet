@@ -10,11 +10,11 @@ Fetal gestational age (GA) is vital clinical information that is estimated durin
 Supplementary video is attached to this repo. 
 
 # Citation
-Cengiz, S., Hamdi, I., Yaqub, M. (2022). Automatic Quality Assessment of First Trimester Crown-Rump-Length Ultrasound Images. In: Aylward, S., Noble, J.A., Hu, Y., Lee, SL., Baum, Z., Min, Z. (eds) Simplifying Medical Ultrasound. ASMUS 2022. Lecture Notes in Computer Science, vol 13565. Springer, Cham. https://doi.org/10.1007/978-3-031-16902-1_17
+Cengiz, S., Hamdi, I., Yaqub, M. (2022). Automatic Quality Assessment of First Trimester Crown-Rump-Length Ultrasound Images. In: Aylward, S., Noble, J.A., Hu, Y., Lee, SL., Baum, Z., Min, Z. (eds) Simplifying Medical Ultrasound. ASMUS 2022. Lecture Notes in Computer Science, vol 13565. Springer, Cham. [FetalTransUNet Link](https://doi.org/10.1007/978-3-031-16902-1_17) 
 
 # Download Pre-trained Model
 
-Link: Get the model -> ```https://console.cloud.google.com/storage/browser/vit_models?pli=1```
+Link: Get the model -> [Link](https://console.cloud.google.com/storage/browser/vit_models?pli=1)
 
 # Data preparation 
 
@@ -40,5 +40,5 @@ For criteria check:
 It will automatically saves the CSV file.
 
 # Credits
-Please, cite. FetalTransUNet ```https://doi.org/10.1007/978-3-031-16902-1_17```
-This code adopted TransUNet (https://doi.org/10.48550/arXiv.2102.0). 
+Please, cite. [FetalTransUNet Link](https://doi.org/10.1007/978-3-031-16902-1_17) 
+This code adopted [TransUNet](https://doi.org/10.48550/arXiv.2102.0) 
