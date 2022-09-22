@@ -1,0 +1,10 @@
+torchvision==0.11.2
+numpy
+tqdm
+tensorboard
+tensorboardX
+ml-collections
+medpy
+SimpleITK
+scipy
+h5py

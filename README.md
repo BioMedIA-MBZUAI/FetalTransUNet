@@ -11,3 +11,4 @@ Fetal gestational age (GA) is vital clinical information that is estimated durin
 Cengiz, S., Hamdi, I., Yaqub, M. (2022). Automatic Quality Assessment of First Trimester Crown-Rump-Length Ultrasound Images. In: Aylward, S., Noble, J.A., Hu, Y., Lee, SL., Baum, Z., Min, Z. (eds) Simplifying Medical Ultrasound. ASMUS 2022. Lecture Notes in Computer Science, vol 13565. Springer, Cham. https://doi.org/10.1007/978-3-031-16902-1_17
 
 
+
