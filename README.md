@@ -10,5 +10,33 @@ Fetal gestational age (GA) is vital clinical information that is estimated durin
 # Citation
 Cengiz, S., Hamdi, I., Yaqub, M. (2022). Automatic Quality Assessment of First Trimester Crown-Rump-Length Ultrasound Images. In: Aylward, S., Noble, J.A., Hu, Y., Lee, SL., Baum, Z., Min, Z. (eds) Simplifying Medical Ultrasound. ASMUS 2022. Lecture Notes in Computer Science, vol 13565. Springer, Cham. https://doi.org/10.1007/978-3-031-16902-1_17
 
+# Download Pre-trained Model
 
+Link: Get the model -> https://console.cloud.google.com/storage/browser/vit_models?pli=1
 
+# Data preparation 
+
+ Data preparation should be completed according to "./datasets/README.md".
+ This repo includes an example dataset includes GT, segmented and predicted of an ultrasound image. Check folder '''predictions'''.
+ 
+# Environement 
+
+'''cd ~TransUNet'''
+'''pip install -r requirements.txt'''
+
+# Run 
+
+For train: 
+'''python train.py --dataset Synapse --vit_name R50-ViT-B_16'''
+
+For test: 
+'''python test.py --dataset Synapse --vit_name R50-ViT-B_16 --save_nii
+
+For criteria check: 
+''' python pipelinecriteria.py ~/FetalTransUNet/predictions'''
+
+It will automatically saves the CSV file.
+
+# Credits
+Please, cite. FetalTransUNet https://doi.org/10.1007/978-3-031-16902-1_17.
+This code adopted TransUNet (https://doi.org/10.48550/arXiv.2102.0). 
